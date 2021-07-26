@@ -1,0 +1,38 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ .buttonColor:hover{
+  border-color: red;
+  color: white;
+
+
+}
+  .buttonColor{
+  color: rgb(236, 236, 236);
+  border-color: rgba(4, 138, 216, 0.733);
+  background-color: rgb(7, 98, 150);
+  border-radius: 10px;
+  transition: all 0.5s ease;
+}
+.card{
+  margin-top: 20%;
+  align-items: center;
+  margin-left: 20%;
+  width: 50%;
+  background-color: black;
+  
+}
