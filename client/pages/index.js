@@ -41,20 +41,21 @@ export default function Home() {
   return (
 
    
-     <div className="card">
-            <Form onSubmit={handleSubmit}>
+     <div className="card2">
+
+<div className="formCard">
+<Form onSubmit={handleSubmit}>
           <Form.Group className="mb-3" >
             <Form.Label>Nombre</Form.Label>
-            <Form.Control name ="nombre" type="text" placeholder="Nombre" 
+            <Form.Control name ="nombre" type="text" placeholder="Nombre " className="leftdata" 
              onChange={handleChangeInput}
             />
             <Form.Text className="text-muted">
-              We'll never share your email with anyone else.
             </Form.Text>
           </Form.Group>
 
           <Form.Group className="mb-3" >
-            <Form.Label>apellido Paterno</Form.Label>
+            <Form.Label>Apellido Paterno</Form.Label>
             <Form.Control name ="paterno" type="text" placeholder="Paterno" 
              onChange={handleChangeInput}
             />
@@ -77,7 +78,10 @@ export default function Home() {
           <button className="buttonColor" type="submit">
             Submit
           </button>
-        </Form>
+        </Form> 
+
+</div>
+  
      </div>
 
 
